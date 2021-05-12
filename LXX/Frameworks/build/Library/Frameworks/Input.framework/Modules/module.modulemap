@@ -1,0 +1,11 @@
+framework module Input {
+  umbrella header "Input.h"
+
+  export *
+  module * { export * }
+}
+
+module Input.Swift {
+    header "Input-Swift.h"
+    requires objc
+}

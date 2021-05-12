@@ -1,0 +1,11 @@
+framework module XX {
+  umbrella header "XX.h"
+
+  export *
+  module * { export * }
+}
+
+module XX.Swift {
+    header "XX-Swift.h"
+    requires objc
+}
